@@ -1,0 +1,465 @@
+-+- Loading Extensions -+-
+Reading file: 00-basicProtocol.py
+Reading file: 01-peerexchange.py
+Reading file: 10-groupExtension.py
+Reading file: 20-httpDTN.py
+Reading file: 30-sshRPC.py
+Reading file: 50-healService.py
+Reading file: 50-monitor-service.py
+
+-+- Extending Protocol -+-
+BasicOverlay extension loaded
+PeerExchange extension loaded
+Groups extension loaded
+HTTP-DTN extension loaded
+sshRPC extension loaded
+
+-+- Data received -+-
+http-dtn:PUT * HTTP/1.1
+Host: alderan
+Content-Destination: polismassa
+Content-Source: alderan
+Content-Length: 3
+Content-Range: bytes 0/3
+Content-MD5: e07910a06a086c83ba41827aa00b26ed
+Date: Fri, 13 Feb 2009 23:31:30 GMT
+
+asd
+Parsed data:
+('http-dtn', 'PUT * HTTP/1.1\nHost: alderan\nContent-Destination: polismassa\nContent-Source: alderan\nContent-Length: 3\nContent-Range: bytes 0/3\nContent-MD5: e07910a06a086c83ba41827aa00b26ed\nDate: Fri, 13 Feb 2009 23:31:30 GMT\n\nasd')
+
+-+- Data received -+-
+c:n:polismassa:8001
+Parsed data:
+['c', 'n', 'polismassa', '8001']
+Adding peer nicknamed polismassa
+
+-+- Data received -+-
+peerlist:r
+Parsed data:
+('peerlist', 'r')
+
+-+- Data received -+-
+group:j:HTTP-DTN
+Parsed data:
+['group', 'j', 'HTTP-DTN']
+Peer polismassa requested to join group HTTP-DTN
+
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date: Mon, 20 Dec 2010 18:48:22 GMT
+
+
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data receivTraceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/twisted/internet/defer.py", line 249, in addCallbacks
+    self._runCallbacks()
+  File "/usr/lib/python2.6/dist-packages/twisted/internet/defer.py", line 441, in _runCallbacks
+    self.result = callback(self.result, *args, **kw)
+  File "/usr/lib/python2.6/dist-packages/twisted/internet/base.py", line 426, in _continueFiring
+    callable(*args, **kwargs)
+  File "/usr/lib/python2.6/dist-packages/twisted/enterprise/adbapi.py", line 374, in finalClose
+    self._close(conn)
+--- <exception caught here> ---
+  File "/usr/lib/python2.6/dist-packages/twisted/enterprise/adbapi.py", line 420, in _close
+    conn.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id -1224869008 and this is thread id -1220360512
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/twisted/internet/defer.py", line 249, in addCallbacks
+    self._runCallbacks()
+  File "/usr/lib/python2.6/dist-packages/twisted/internet/defer.py", line 441, in _runCallbacks
+    self.result = callback(self.result, *args, **kw)
+  File "/usr/lib/python2.6/dist-packages/twisted/internet/base.py", line 426, in _continueFiring
+    callable(*args, **kwargs)
+  File "/usr/lib/python2.6/dist-packages/twisted/enterprise/adbapi.py", line 374, in finalClose
+    self._close(conn)
+--- <exception caught here> ---
+  File "/usr/lib/python2.6/dist-packages/twisted/enterprise/adbapi.py", line 420, in _close
+    conn.close()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id -1233261712 and this is thread id -1220360512
+ed -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+-+- Data received -+-
+HTTP/1.1 404 Not Found
+Date:e:unknownCommand
+WARNING: No one parsed this sequence	
+Removing polismassa from group HTTP-DTN
+Peer polismassa (143.54.12.74) is leaving the overlay
