@@ -10,15 +10,15 @@ The ManP2P-ng API enables the development of management components and plug-ins.
 
 # Getting started
 
-In order to get started using the ManP2P-ng you need to create a configuratino file for it. Start off by opening the file manp2p.conf and replace the following variables with your host information:
+In order to get started using ManP2P-ng you need to create a configuratino file for it. Start off by using the file manp2p.conf as a template and replace the following variables with your host information:
 
-- **HOSTNAME**: Computer's hostname
-- **DOMAIN**: Computer's domain name
-- **ADDRESS**: Computer's IP address
+- **HOSTNAME**: Computer's hostname;
+- **DOMAIN**: Computer's domain name;
+- **ADDRESS**: Computer's IP address;
 - **INTRODUCER_ADDRESS**: Introducer's IP address. The introducer is the host used by peers to get into the overlay. 
 
 After that you can start ManP2P-ng using the following command:
 
-*python main.py -c manp2p.conf*
+$python main.py -c manp2p.conf
 
 You can also start several instances of ManP2P-ng by using different configuration files. Just change the parameter "name" of the tag "node" for each different instance.
